@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 150px 20px;
+    padding: 6px;
+    font-size:20px;    
+    background-image: url(medical-appointment-doctor-healthcare.jpg.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    }
+
+
+.container{    
+background-color: rgb(228, 219, 203);
+padding: 5px 15px 18px 30px;
+border: 2px solid rgb(117, 148, 105);
+border-radius: 10px;
+background-position: fil;
+opacity: 0.85;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="time"],
+select,textarea{
+    width: original;
+    padding: 5px;
+    border: 2px solid rgb(238, 179, 15);
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+
+p{
+    color: rgb(95, 135, 175);
+    padding: 5px;
+    margin: 10px;
+}
+
+.heading p,h3{
+    font-family:cursive;
+    color: rgb(219, 9, 26);
+}
+
+.heading h3{
+    text-align: center;
+}
+
+ input[type="submit"]:hover{
+    color: rgb(43, 209, 112);
+    background-color: yellow;     
+}
+
+input[type="submit"]{
+    color: rgb(226, 41, 8);
+    background-color: rgba(31, 224, 238, 0.678);
+    padding: 4px 5px ;
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    cursor:grabbing;
+
+}
+
